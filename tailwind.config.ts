@@ -11,8 +11,25 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: '#000319',
+        secondary: '#000319',
+        accent: '#000319',
       },
+      fontFamily: {
+        graphik: ['Graphik', 'sans-serif'],
+      },
+      fontSize: {
+        custom: '16px', 
+        basic: '14px',  
+        smdd: '18px', 
+      }
+
     },
   },
   plugins: [],
 } satisfies Config;
+
+
+
+// #000319
+// #040828
