@@ -1,9 +1,9 @@
-import { Avatar } from "@nextui-org/react";
-import { Button } from "@nextui-org/react";
+
+
 
 const Testimonials = () => (
   
-  <div className="flex flex-col items-center justify-center mb-32 gap-8">
+  <section className="flex flex-col items-center justify-center mb-8 sm:mb-16 md:mb-32 gap-8">
     <h1 className="text-white text-2xl font-graphik">TESTIMONIALS</h1>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full max-w-4xl px-4 sm:px-8 lg:px-16">
@@ -35,7 +35,7 @@ const Testimonials = () => (
   </div>
 
 
-  </div>
+  </section>
 );
 
 export default Testimonials;
